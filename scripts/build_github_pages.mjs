@@ -1,6 +1,6 @@
 import { cp, writeFile } from "node:fs/promises";
 
-const basePath = process.env.NEXT_PUBLIC_BASE_PATH || "/texture-experiments";
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH || "/refrigerant-archive";
 if (!basePath.startsWith("/") || basePath.endsWith("/")) {
   throw new Error(`Invalid GitHub Pages base path: ${basePath}`);
 }

@@ -8,7 +8,7 @@
   "scripts": {
     "dev": "WRANGLER_LOG_PATH=.wrangler/wrangler.log vinext dev",
     "build": "WRANGLER_LOG_PATH=.wrangler/wrangler.log vinext build",
-    "build:pages": "GITHUB_PAGES=true NEXT_PUBLIC_BASE_PATH=/texture-experiments npm run build && node scripts/build_github_pages.mjs",
+    "build:pages": "GITHUB_PAGES=true NEXT_PUBLIC_BASE_PATH=/refrigerant-archive npm run build && node scripts/build_github_pages.mjs",
     "start": "WRANGLER_LOG_PATH=.wrangler/wrangler.log vinext start",
     "test": "npm run build && node --test tests/rendered-html.test.mjs",
     "lint": "eslint . --ignore-pattern dist --ignore-pattern .next",

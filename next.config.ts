@@ -1,7 +1,7 @@
 import type { NextConfig } from "next";
 
 const githubPages = process.env.GITHUB_PAGES === "true";
-const basePath = githubPages ? "/texture-experiments" : "";
+const basePath = githubPages ? "/refrigerant-archive" : "";
 
 const nextConfig: NextConfig = {
   basePath,
