@@ -1,0 +1,125 @@
+{
+  "source_directory": "cold-shot",
+  "source_files": [
+    "DSC00863.ARW",
+    "DSC00864.ARW",
+    "DSC00865.ARW",
+    "DSC00866.ARW",
+    "DSC00867.ARW"
+  ],
+  "output_size": [
+    4096,
+    2268
+  ],
+  "pbr_map_size": [
+    1024,
+    567
+  ],
+  "projection": "lens-corrected full perspective projection of a pitched 3D cylinder",
+  "camera_focal_length_pixels": 5980.0,
+  "camera_pitch_degrees": 13.1458,
+  "camera_distance_in_can_radii": {
+    "DSC00863.ARW": 9.646852248917488,
+    "DSC00864.ARW": 9.893275704466426,
+    "DSC00865.ARW": 9.967634607593501,
+    "DSC00866.ARW": 10.044038234371449
+  },
+  "body_height_in_radii": 3.48,
+  "lens_distortion": {
+    "model": "ptlens",
+    "coefficients": [
+      0.02533463,
+      -0.0587953,
+      0.04566922
+    ],
+    "source": "embedded Sony FE 50 mm F1.2 GM RAW profile"
+  },
+  "intrinsic_albedo": {
+    "method": "cross-orientation camera-space illumination separation",
+    "white_reference_bands": true,
+    "environment_vertical_bands": 18,
+    "environment_angle_bins": 161
+  },
+  "cut_longitude_degrees": 262.1326120824,
+  "front_u": 0.2718538553266667,
+  "loop_closure": {
+    "filename": "DSC00867.ARW",
+    "fitted_center_degrees": 358.5906387,
+    "closure_error_degrees": 1.4093613
+  },
+  "views": [
+    {
+      "filename": "DSC00863.ARW",
+      "top": 1150,
+      "bottom": 3477,
+      "center_top": 1425,
+      "center_bottom": 1431,
+      "radius_top": 650,
+      "radius_bottom": 598.3,
+      "angle_scale": 1.0,
+      "angle_offset": 0.0,
+      "angle_scale_y": 0.0,
+      "angle_offset_y": 0.0,
+      "vertical_scale": 1.0,
+      "vertical_offset": 0.0,
+      "vertical_angle": 0.0,
+      "vertical_angle_y": 0.0
+    },
+    {
+      "filename": "DSC00864.ARW",
+      "top": 1140,
+      "bottom": 3403,
+      "center_top": 1405,
+      "center_bottom": 1412,
+      "radius_top": 633,
+      "radius_bottom": 583.8,
+      "angle_scale": 0.9944265408,
+      "angle_offset": 93.8727476053,
+      "angle_scale_y": 0.0568717264,
+      "angle_offset_y": 2.5876518859,
+      "vertical_scale": 1.0019594207,
+      "vertical_offset": 0.003272549,
+      "vertical_angle": 0.0032098625,
+      "vertical_angle_y": -0.0008253562
+    },
+    {
+      "filename": "DSC00865.ARW",
+      "top": 1135,
+      "bottom": 3379,
+      "center_top": 1339,
+      "center_bottom": 1342,
+      "radius_top": 628,
+      "radius_bottom": 579.6,
+      "angle_scale": 0.9946679961,
+      "angle_offset": 178.3993675854,
+      "angle_scale_y": -0.0109289174,
+      "angle_offset_y": -0.3581821377,
+      "vertical_scale": 0.9997769279,
+      "vertical_offset": 0.0034630519,
+      "vertical_angle": 0.0047622959,
+      "vertical_angle_y": 0.0014418738
+    },
+    {
+      "filename": "DSC00866.ARW",
+      "top": 1132,
+      "bottom": 3358,
+      "center_top": 1413,
+      "center_bottom": 1417,
+      "radius_top": 623,
+      "radius_bottom": 575.3,
+      "angle_scale": 0.9978213004,
+      "angle_offset": 262.1326120824,
+      "angle_scale_y": 0.0314770779,
+      "angle_offset_y": -2.0950274414,
+      "vertical_scale": 0.9976216625,
+      "vertical_offset": 0.0034321402,
+      "vertical_angle": 0.0018821935,
+      "vertical_angle_y": -0.0005172223
+    }
+  ],
+  "geometry": {
+    "units": "inches",
+    "body_radius": 1.375,
+    "body_height": 4.785
+  }
+}

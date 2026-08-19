@@ -1,0 +1,85 @@
+{
+  "model": "gpt-image-2",
+  "quality": "high",
+  "size": "2048x1152",
+  "mode": "multi-image edit with direct photographic references",
+  "preprocessing": "Full-resolution RAW development to JPEG only; no cropping, cylindrical reconstruction, stitching, warping, or CV analysis",
+  "prompt": "Take these different perspectives on a single can, and generate an albedo image of the label that could be used as a texture map.",
+  "outputs": [
+    {
+      "can": "cold-shot",
+      "references": [
+        ".work/direct-label-jpgs/cold-shot/DSC00863.jpg",
+        ".work/direct-label-jpgs/cold-shot/DSC00864.jpg",
+        ".work/direct-label-jpgs/cold-shot/DSC00865.jpg",
+        ".work/direct-label-jpgs/cold-shot/DSC00866.jpg",
+        ".work/direct-label-jpgs/cold-shot/DSC00867.jpg"
+      ],
+      "generated": "output/imagegen/refrigerants-direct/cold-shot-label-direct.png",
+      "viewer_asset": "public/assets/cold-shot/label-direct.webp"
+    },
+    {
+      "can": "chargette",
+      "references": [
+        ".work/direct-label-jpgs/chargette/DSC00868.jpg",
+        ".work/direct-label-jpgs/chargette/DSC00869.jpg",
+        ".work/direct-label-jpgs/chargette/DSC00870.jpg",
+        ".work/direct-label-jpgs/chargette/DSC00871.jpg",
+        ".work/direct-label-jpgs/chargette/DSC00872.jpg"
+      ],
+      "generated": "output/imagegen/refrigerants-direct/chargette-label-direct.png",
+      "viewer_asset": "public/assets/chargette/label-direct.webp"
+    },
+    {
+      "can": "du-pont-freon",
+      "references": [
+        ".work/direct-label-jpgs/du-pont-freon/DSC00852.jpg",
+        ".work/direct-label-jpgs/du-pont-freon/DSC00853.jpg",
+        ".work/direct-label-jpgs/du-pont-freon/DSC00854.jpg",
+        ".work/direct-label-jpgs/du-pont-freon/DSC00855.jpg",
+        ".work/direct-label-jpgs/du-pont-freon/DSC00856.jpg",
+        ".work/direct-label-jpgs/du-pont-freon/DSC00857.jpg"
+      ],
+      "generated": "output/imagegen/refrigerants-direct/du-pont-freon-label-direct.png",
+      "viewer_asset": "public/assets/du-pont-freon/label-direct.webp"
+    },
+    {
+      "can": "interdynamics",
+      "references": [
+        ".work/direct-label-jpgs/interdynamics/DSC00858.jpg",
+        ".work/direct-label-jpgs/interdynamics/DSC00859.jpg",
+        ".work/direct-label-jpgs/interdynamics/DSC00860.jpg",
+        ".work/direct-label-jpgs/interdynamics/DSC00861.jpg",
+        ".work/direct-label-jpgs/interdynamics/DSC00862.jpg"
+      ],
+      "generated": "output/imagegen/refrigerants-direct/interdynamics-label-direct.png",
+      "viewer_asset": "public/assets/interdynamics/label-direct.webp"
+    },
+    {
+      "can": "sercon-1",
+      "references": [
+        ".work/direct-label-jpgs/sercon-1/DSC00846.jpg",
+        ".work/direct-label-jpgs/sercon-1/DSC00847.jpg",
+        ".work/direct-label-jpgs/sercon-1/DSC00848.jpg",
+        ".work/direct-label-jpgs/sercon-1/DSC00849.jpg",
+        ".work/direct-label-jpgs/sercon-1/DSC00850.jpg",
+        ".work/direct-label-jpgs/sercon-1/DSC00851.jpg"
+      ],
+      "generated": "output/imagegen/refrigerants-direct/sercon-1-label-direct.png",
+      "viewer_asset": "public/assets/sercon-1/label-direct.webp"
+    },
+    {
+      "can": "sercon-2",
+      "references": [
+        ".work/direct-label-jpgs/sercon-2/DSC00873.jpg",
+        ".work/direct-label-jpgs/sercon-2/DSC00874.jpg",
+        ".work/direct-label-jpgs/sercon-2/DSC00875.jpg",
+        ".work/direct-label-jpgs/sercon-2/DSC00876.jpg",
+        ".work/direct-label-jpgs/sercon-2/DSC00877.jpg",
+        ".work/direct-label-jpgs/sercon-2/DSC00878.jpg"
+      ],
+      "generated": "output/imagegen/refrigerants-direct/sercon-2-label-direct.png",
+      "viewer_asset": "public/assets/sercon-2/label-direct.webp"
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "source_directory": "sercon-1",
+  "source_files": [
+    "DSC00846.ARW",
+    "DSC00847.ARW",
+    "DSC00848.ARW",
+    "DSC00849.ARW",
+    "DSC00850.ARW",
+    "DSC00851.ARW"
+  ],
+  "display_name": "Sercon Refrigerant 12 Black",
+  "nominal_ounces": 12,
+  "output_size": [
+    3072,
+    1721
+  ],
+  "projection": "lens-corrected perspective projection of a pitched 3D cylinder",
+  "camera_focal_length_pixels": 5980.0,
+  "camera_pitch_degrees": 13.1458,
+  "body_height_in_radii": 3.52,
+  "shoulder_style": "dome",
+  "cut_longitude_degrees": 116.95088381453114,
+  "front_u": 0.6751364338485246,
+  "view_angles_degrees": [
+    0.0,
+    62.39947926677402,
+    116.95088381453114,
+    176.3360754681978,
+    261.4485954522429,
+    360.0
+  ],
+  "views": [
+    {
+      "filename": "DSC00846.ARW",
+      "top": 1163,
+      "bottom": 3518,
+      "center_top": 1470.5,
+      "center_bottom": 1470.5,
+      "radius_top": 654.4200000000001,
+      "radius_bottom": 604.0799999999999,
+      "angle_offset": 0.0
+    },
+    {
+      "filename": "DSC00847.ARW",
+      "top": 1299,
+      "bottom": 3699,
+      "center_top": 1428.5,
+      "center_bottom": 1428.5,
+      "radius_top": 666.25,
+      "radius_bottom": 615.0,
+      "angle_offset": 62.39947926677402
+    },
+    {
+      "filename": "DSC00848.ARW",
+      "top": 1293,
+      "bottom": 3694,
+      "center_top": 1367.0,
+      "center_bottom": 1367.0,
+      "radius_top": 665.08,
+      "radius_bottom": 613.92,
+      "angle_offset": 116.95088381453114
+    },
+    {
+      "filename": "DSC00849.ARW",
+      "top": 1258,
+      "bottom": 3679,
+      "center_top": 1385.0,
+      "center_bottom": 1385.0,
+      "radius_top": 669.76,
+      "radius_bottom": 618.24,
+      "angle_offset": 176.3360754681978
+    },
+    {
+      "filename": "DSC00850.ARW",
+      "top": 1257,
+      "bottom": 3686,
+      "center_top": 1445.75,
+      "center_bottom": 1445.75,
+      "radius_top": 676.78,
+      "radius_bottom": 624.72,
+      "angle_offset": 261.4485954522429
+    },
+    {
+      "filename": "DSC00851.ARW",
+      "top": 1282,
+      "bottom": 3686,
+      "center_top": 1359.0,
+      "center_bottom": 1359.0,
+      "radius_top": 665.73,
+      "radius_bottom": 614.52,
+      "angle_offset": 360.0
+    }
+  ],
+  "angle_registration": [
+    {
+      "pair": 0,
+      "expected_degrees": 68,
+      "measured_degrees": 61.26779649628617,
+      "inlier_matches": 31
+    },
+    {
+      "pair": 1,
+      "expected_degrees": 40,
+      "measured_degrees": 40,
+      "inlier_matches": 3
+    },
+    {
+      "pair": 2,
+      "expected_degrees": 82,
+      "measured_degrees": 57.63762449453918,
+      "inlier_matches": 13
+    },
+    {
+      "pair": 3,
+      "expected_degrees": 86,
+      "measured_degrees": 84.55340170543394,
+      "inlier_matches": 127
+    },
+    {
+      "pair": 4,
+      "expected_degrees": 84,
+      "measured_degrees": 84,
+      "inlier_matches": 3
+    }
+  ]
+}

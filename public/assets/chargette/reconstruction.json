@@ -1,0 +1,108 @@
+{
+  "source_directory": "chargette",
+  "source_files": [
+    "DSC00868.ARW",
+    "DSC00869.ARW",
+    "DSC00870.ARW",
+    "DSC00871.ARW",
+    "DSC00872.ARW"
+  ],
+  "display_name": "Chargette Refrigerant 12",
+  "nominal_ounces": 14,
+  "output_size": [
+    3072,
+    1789
+  ],
+  "projection": "lens-corrected perspective projection of a pitched 3D cylinder",
+  "camera_focal_length_pixels": 5980.0,
+  "camera_pitch_degrees": 13.1458,
+  "body_height_in_radii": 3.66,
+  "shoulder_style": "dome",
+  "cut_longitude_degrees": 246.83575945350304,
+  "front_u": 0.3143451126291582,
+  "view_angles_degrees": [
+    0.0,
+    83.82421126085534,
+    162.05025127624913,
+    246.83575945350304,
+    360.0
+  ],
+  "views": [
+    {
+      "filename": "DSC00868.ARW",
+      "top": 1178,
+      "bottom": 3551,
+      "center_top": 1414.5,
+      "center_bottom": 1414.5,
+      "radius_top": 665.08,
+      "radius_bottom": 613.92,
+      "angle_offset": 0.0
+    },
+    {
+      "filename": "DSC00869.ARW",
+      "top": 1169,
+      "bottom": 3527,
+      "center_top": 1365.75,
+      "center_bottom": 1365.75,
+      "radius_top": 657.8000000000001,
+      "radius_bottom": 607.1999999999999,
+      "angle_offset": 83.82421126085534
+    },
+    {
+      "filename": "DSC00870.ARW",
+      "top": 1166,
+      "bottom": 3499,
+      "center_top": 1413.25,
+      "center_bottom": 1413.25,
+      "radius_top": 647.01,
+      "radius_bottom": 597.24,
+      "angle_offset": 162.05025127624913
+    },
+    {
+      "filename": "DSC00871.ARW",
+      "top": 1140,
+      "bottom": 3452,
+      "center_top": 1491.5,
+      "center_bottom": 1491.5,
+      "radius_top": 642.85,
+      "radius_bottom": 593.4,
+      "angle_offset": 246.83575945350304
+    },
+    {
+      "filename": "DSC00872.ARW",
+      "top": 1151,
+      "bottom": 3403,
+      "center_top": 1354.0,
+      "center_bottom": 1354.0,
+      "radius_top": 630.24,
+      "radius_bottom": 581.76,
+      "angle_offset": 360.0
+    }
+  ],
+  "angle_registration": [
+    {
+      "pair": 0,
+      "expected_degrees": 86,
+      "measured_degrees": 82.7461798625406,
+      "inlier_matches": 202
+    },
+    {
+      "pair": 1,
+      "expected_degrees": 90,
+      "measured_degrees": 77.52154727127515,
+      "inlier_matches": 473
+    },
+    {
+      "pair": 2,
+      "expected_degrees": 94,
+      "measured_degrees": 83.84958608715306,
+      "inlier_matches": 268
+    },
+    {
+      "pair": 3,
+      "expected_degrees": 90,
+      "measured_degrees": 90,
+      "inlier_matches": 7
+    }
+  ]
+}

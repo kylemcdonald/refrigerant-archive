@@ -1,0 +1,156 @@
+{
+  "model": "gpt-image-2",
+  "quality": "high",
+  "mode": "six independent multi-image edits, one request per can, with targeted non-duplicate corrections for four cans",
+  "preprocessing": "Approved per-photo calibrated cylinder unwrappings transcoded to high-quality JPEG. Cold Shot and Chargette were cropped vertically to their recovered printed-label bounds. The corrected Du Pont, Interdynamics, Cold Shot, and Chargette requests used only four distinct angular views. No input was stretched, relit, stitched, or mixed across cans.",
+  "deduplication_policy": "Exclude 360-degree loop-closure photographs that repeat the first view. Du Pont also excludes DSC00853 because it is only 7.3 degrees from DSC00852. The four corrected requests use one distinct view per approximately quarter turn.",
+  "prompt_template": "Take these different perspectives on a single can, and generate an albedo image of the label that could be used as a texture map. Remove reflections, dirt, and rust, and keep everything sharp. Preserve the original layout and colors as accurately as possible. Images 1–{count} are sequential, overlapping, lens-corrected cylindrical views of the same printed label. Reconstruct one seamless 360-degree rectangular albedo map from them. Show only the flat label artwork edge-to-edge, not the can, cylinder, lighting, background, mockup, border, or perspective. Keep every visible logo, word, number, diagram, warning block, barcode, stripe, blank band, and their relative scale and position as faithful as possible. Do not invent new branding or copy. The left and right edges must join seamlessly. Output at exactly the requested canvas size; do not crop, pad, or change the aspect ratio.",
+  "aspect_policy": "Every requested output canvas matches the corresponding Three.js printed cylinder circumference divided by its recovered label height. All six pixel-to-surface aspect errors are below 0.3 percent, so the viewer maps each texture at repeat 1x1 without stretching or padding.",
+  "targeted_iterations": [
+    {
+      "can": "du-pont-freon",
+      "reason": "Preserve the front panel's diagonal blue band and prevent overlapping front or back views from becoming repeated physical panels.",
+      "excluded_duplicates": ["DSC00853.ARW", "DSC00857.ARW"],
+      "prompt_file": "output/imagegen/refrigerants-undistorted/prompts/du-pont-freon-v3.txt",
+      "discarded_variants": [
+        "output/imagegen/refrigerants-undistorted/du-pont-freon-label-undistorted.png",
+        "output/imagegen/refrigerants-undistorted/du-pont-freon-label-undistorted-v2.png"
+      ],
+      "selected_variant": "output/imagegen/refrigerants-undistorted/du-pont-freon-label-undistorted-v3.png"
+    },
+    {
+      "can": "interdynamics",
+      "reason": "Remove the invented second upward-arrow section, preserve exactly one gas/liquid arrow column, and move the refrigerator-use paragraph out of the narrow barcode strip into its source-correct horizontal position below the A/C diagram.",
+      "excluded_duplicates": ["DSC00862.ARW"],
+      "prompt_file": "output/imagegen/refrigerants-undistorted/prompts/interdynamics-v3.txt",
+      "discarded_variants": [
+        "output/imagegen/refrigerants-undistorted/interdynamics-label-undistorted.png",
+        "output/imagegen/refrigerants-undistorted/interdynamics-label-undistorted-v2.png"
+      ],
+      "correction_mask": "output/imagegen/refrigerants-undistorted/interdynamics-v3-mask.png",
+      "selected_variant": "output/imagegen/refrigerants-undistorted/interdynamics-label-undistorted-v3.png"
+    },
+    {
+      "can": "cold-shot",
+      "reason": "Restore the separate rounded solid-blue front and rounded blue-outline back sections without connecting them.",
+      "excluded_duplicates": ["DSC00867.ARW"],
+      "prompt_file": "output/imagegen/refrigerants-undistorted/prompts/cold-shot-v2.txt",
+      "discarded_variants": [
+        "output/imagegen/refrigerants-undistorted/cold-shot-label-undistorted.png"
+      ],
+      "selected_variant": "output/imagegen/refrigerants-undistorted/cold-shot-label-undistorted-v2.png"
+    },
+    {
+      "can": "chargette",
+      "reason": "Preserve the full-height exposed silver vertical band at the physical label wrap seam.",
+      "excluded_duplicates": ["DSC00872.ARW"],
+      "prompt_file": "output/imagegen/refrigerants-undistorted/prompts/chargette-v2.txt",
+      "discarded_variants": [
+        "output/imagegen/refrigerants-undistorted/chargette-label-undistorted.png"
+      ],
+      "selected_variant": "output/imagegen/refrigerants-undistorted/chargette-label-undistorted-v2.png"
+    }
+  ],
+  "outputs": [
+    {
+      "can": "sercon-1",
+      "references": [
+        ".work/undistorted-label-jpgs/sercon-1/dsc00846.jpg",
+        ".work/undistorted-label-jpgs/sercon-1/dsc00847.jpg",
+        ".work/undistorted-label-jpgs/sercon-1/dsc00848.jpg",
+        ".work/undistorted-label-jpgs/sercon-1/dsc00849.jpg",
+        ".work/undistorted-label-jpgs/sercon-1/dsc00850.jpg",
+        ".work/undistorted-label-jpgs/sercon-1/dsc00851.jpg"
+      ],
+      "label_crop_body_fraction": { "top": 0, "bottom": 0 },
+      "requested_size": [2048, 1152],
+      "physical_surface_aspect": 1.77522,
+      "pixel_aspect": 1.77778,
+      "aspect_error_percent": 0.144,
+      "generated": "output/imagegen/refrigerants-undistorted/sercon-1-label-undistorted.png",
+      "viewer_asset": "public/assets/sercon-1/label-undistorted.webp"
+    },
+    {
+      "can": "du-pont-freon",
+      "references": [
+        ".work/undistorted-label-jpgs/du-pont-freon/dsc00852.jpg",
+        ".work/undistorted-label-jpgs/du-pont-freon/dsc00854.jpg",
+        ".work/undistorted-label-jpgs/du-pont-freon/dsc00855.jpg",
+        ".work/undistorted-label-jpgs/du-pont-freon/dsc00856.jpg"
+      ],
+      "label_crop_body_fraction": { "top": 0, "bottom": 0 },
+      "requested_size": [2064, 1136],
+      "physical_surface_aspect": 1.81615,
+      "pixel_aspect": 1.8169,
+      "aspect_error_percent": 0.041,
+      "generated": "output/imagegen/refrigerants-undistorted/du-pont-freon-label-undistorted-v3.png",
+      "viewer_asset": "public/assets/du-pont-freon/label-undistorted-v3.webp"
+    },
+    {
+      "can": "interdynamics",
+      "references": [
+        ".work/undistorted-label-jpgs/interdynamics/dsc00858.jpg",
+        ".work/undistorted-label-jpgs/interdynamics/dsc00859.jpg",
+        ".work/undistorted-label-jpgs/interdynamics/dsc00860.jpg",
+        ".work/undistorted-label-jpgs/interdynamics/dsc00861.jpg"
+      ],
+      "label_crop_body_fraction": { "top": 0, "bottom": 0 },
+      "requested_size": [2048, 1088],
+      "physical_surface_aspect": 1.88684,
+      "pixel_aspect": 1.88235,
+      "aspect_error_percent": -0.238,
+      "generated": "output/imagegen/refrigerants-undistorted/interdynamics-label-undistorted-v3.png",
+      "viewer_asset": "public/assets/interdynamics/label-undistorted-v3.webp"
+    },
+    {
+      "can": "cold-shot",
+      "references": [
+        ".work/undistorted-label-jpgs/cold-shot/dsc00863.jpg",
+        ".work/undistorted-label-jpgs/cold-shot/dsc00864.jpg",
+        ".work/undistorted-label-jpgs/cold-shot/dsc00865.jpg",
+        ".work/undistorted-label-jpgs/cold-shot/dsc00866.jpg"
+      ],
+      "label_crop_body_fraction": { "top": 0.075, "bottom": 0.065 },
+      "requested_size": [2048, 1008],
+      "physical_surface_aspect": 2.0299,
+      "pixel_aspect": 2.03175,
+      "aspect_error_percent": 0.091,
+      "generated": "output/imagegen/refrigerants-undistorted/cold-shot-label-undistorted-v2.png",
+      "viewer_asset": "public/assets/cold-shot/label-undistorted-v2.webp"
+    },
+    {
+      "can": "chargette",
+      "references": [
+        ".work/undistorted-label-jpgs/chargette/dsc00868.jpg",
+        ".work/undistorted-label-jpgs/chargette/dsc00869.jpg",
+        ".work/undistorted-label-jpgs/chargette/dsc00870.jpg",
+        ".work/undistorted-label-jpgs/chargette/dsc00871.jpg"
+      ],
+      "label_crop_body_fraction": { "top": 0.105, "bottom": 0.06 },
+      "requested_size": [2064, 1008],
+      "physical_surface_aspect": 2.0537,
+      "pixel_aspect": 2.04762,
+      "aspect_error_percent": -0.296,
+      "generated": "output/imagegen/refrigerants-undistorted/chargette-label-undistorted-v2.png",
+      "viewer_asset": "public/assets/chargette/label-undistorted-v2.webp"
+    },
+    {
+      "can": "sercon-2",
+      "references": [
+        ".work/undistorted-label-jpgs/sercon-2/dsc00873.jpg",
+        ".work/undistorted-label-jpgs/sercon-2/dsc00874.jpg",
+        ".work/undistorted-label-jpgs/sercon-2/dsc00875.jpg",
+        ".work/undistorted-label-jpgs/sercon-2/dsc00876.jpg",
+        ".work/undistorted-label-jpgs/sercon-2/dsc00877.jpg",
+        ".work/undistorted-label-jpgs/sercon-2/dsc00878.jpg"
+      ],
+      "label_crop_body_fraction": { "top": 0, "bottom": 0 },
+      "requested_size": [2064, 1184],
+      "physical_surface_aspect": 1.74089,
+      "pixel_aspect": 1.74324,
+      "aspect_error_percent": 0.135,
+      "generated": "output/imagegen/refrigerants-undistorted/sercon-2-label-undistorted.png",
+      "viewer_asset": "public/assets/sercon-2/label-undistorted.webp"
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "source_directory": "interdynamics",
+  "source_files": [
+    "DSC00858.ARW",
+    "DSC00859.ARW",
+    "DSC00860.ARW",
+    "DSC00861.ARW",
+    "DSC00862.ARW"
+  ],
+  "display_name": "Interdynamics Refrigerant 12",
+  "nominal_ounces": 12,
+  "output_size": [
+    3072,
+    1687
+  ],
+  "projection": "lens-corrected perspective projection of a pitched 3D cylinder",
+  "camera_focal_length_pixels": 5980.0,
+  "camera_pitch_degrees": 13.1458,
+  "body_height_in_radii": 3.45,
+  "shoulder_style": "stepped",
+  "cut_longitude_degrees": 278.86335279919,
+  "front_u": 0.22537957555780552,
+  "view_angles_degrees": [
+    0.0,
+    75.74492626468059,
+    185.38297461695913,
+    278.86335279919,
+    360.0
+  ],
+  "views": [
+    {
+      "filename": "DSC00858.ARW",
+      "top": 1140,
+      "bottom": 3327,
+      "center_top": 1430.75,
+      "center_bottom": 1430.75,
+      "radius_top": 664.5600000000001,
+      "radius_bottom": 613.4399999999999,
+      "angle_offset": 0.0
+    },
+    {
+      "filename": "DSC00859.ARW",
+      "top": 1126,
+      "bottom": 3325,
+      "center_top": 1370.0,
+      "center_bottom": 1370.0,
+      "radius_top": 660.9200000000001,
+      "radius_bottom": 610.0799999999999,
+      "angle_offset": 75.74492626468059
+    },
+    {
+      "filename": "DSC00860.ARW",
+      "top": 1150,
+      "bottom": 3306,
+      "center_top": 1383.0,
+      "center_bottom": 1383.0,
+      "radius_top": 653.9,
+      "radius_bottom": 603.6,
+      "angle_offset": 185.38297461695913
+    },
+    {
+      "filename": "DSC00861.ARW",
+      "top": 1145,
+      "bottom": 3349,
+      "center_top": 1346.0,
+      "center_bottom": 1346.0,
+      "radius_top": 660.9200000000001,
+      "radius_bottom": 610.0799999999999,
+      "angle_offset": 278.86335279919
+    },
+    {
+      "filename": "DSC00862.ARW",
+      "top": 1135,
+      "bottom": 3314,
+      "center_top": 1330.75,
+      "center_bottom": 1330.75,
+      "radius_top": 658.58,
+      "radius_bottom": 607.92,
+      "angle_offset": 360.0
+    }
+  ],
+  "angle_registration": [
+    {
+      "pair": 0,
+      "expected_degrees": 88,
+      "measured_degrees": 74.41914764953087,
+      "inlier_matches": 294
+    },
+    {
+      "pair": 1,
+      "expected_degrees": 91,
+      "measured_degrees": 107.26803517285691,
+      "inlier_matches": 92
+    },
+    {
+      "pair": 2,
+      "expected_degrees": 91,
+      "measured_degrees": 92.15233907334222,
+      "inlier_matches": 293
+    },
+    {
+      "pair": 3,
+      "expected_degrees": 90,
+      "measured_degrees": 79.7375666757782,
+      "inlier_matches": 264
+    }
+  ]
+}

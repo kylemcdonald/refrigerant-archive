@@ -1,0 +1,126 @@
+{
+  "source_directory": "du-pont-freon",
+  "source_files": [
+    "DSC00852.ARW",
+    "DSC00853.ARW",
+    "DSC00854.ARW",
+    "DSC00855.ARW",
+    "DSC00856.ARW",
+    "DSC00857.ARW"
+  ],
+  "display_name": "Du Pont Freon 12",
+  "nominal_ounces": 12,
+  "output_size": [
+    3072,
+    1701
+  ],
+  "projection": "lens-corrected perspective projection of a pitched 3D cylinder",
+  "camera_focal_length_pixels": 5980.0,
+  "camera_pitch_degrees": 13.1458,
+  "body_height_in_radii": 3.48,
+  "shoulder_style": "stepped",
+  "cut_longitude_degrees": 257.8648182927476,
+  "front_u": 0.28370883807570113,
+  "view_angles_degrees": [
+    0.0,
+    7.280666204451476,
+    99.27450554528664,
+    173.79903287606524,
+    257.8648182927476,
+    360.0
+  ],
+  "views": [
+    {
+      "filename": "DSC00852.ARW",
+      "top": 1135,
+      "bottom": 3380,
+      "center_top": 1398.5,
+      "center_bottom": 1398.5,
+      "radius_top": 664.0400000000001,
+      "radius_bottom": 612.9599999999999,
+      "angle_offset": 0.0
+    },
+    {
+      "filename": "DSC00853.ARW",
+      "top": 1144,
+      "bottom": 3398,
+      "center_top": 1411.5,
+      "center_bottom": 1411.5,
+      "radius_top": 664.0400000000001,
+      "radius_bottom": 612.9599999999999,
+      "angle_offset": 7.280666204451476
+    },
+    {
+      "filename": "DSC00854.ARW",
+      "top": 1116,
+      "bottom": 3345,
+      "center_top": 1434.0,
+      "center_bottom": 1434.0,
+      "radius_top": 649.61,
+      "radius_bottom": 599.64,
+      "angle_offset": 99.27450554528664
+    },
+    {
+      "filename": "DSC00855.ARW",
+      "top": 1132,
+      "bottom": 3364,
+      "center_top": 1331.5,
+      "center_bottom": 1331.5,
+      "radius_top": 654.16,
+      "radius_bottom": 603.84,
+      "angle_offset": 173.79903287606524
+    },
+    {
+      "filename": "DSC00856.ARW",
+      "top": 1112,
+      "bottom": 3373,
+      "center_top": 1365.75,
+      "center_bottom": 1365.75,
+      "radius_top": 652.47,
+      "radius_bottom": 602.28,
+      "angle_offset": 257.8648182927476
+    },
+    {
+      "filename": "DSC00857.ARW",
+      "top": 1140,
+      "bottom": 3343,
+      "center_top": 1394.25,
+      "center_bottom": 1394.25,
+      "radius_top": 646.75,
+      "radius_bottom": 597.0,
+      "angle_offset": 360.0
+    }
+  ],
+  "angle_registration": [
+    {
+      "pair": 0,
+      "expected_degrees": 15,
+      "measured_degrees": 7.668118880259222,
+      "inlier_matches": 2127
+    },
+    {
+      "pair": 1,
+      "expected_degrees": 76,
+      "measured_degrees": 93.5040529920684,
+      "inlier_matches": 140
+    },
+    {
+      "pair": 2,
+      "expected_degrees": 89,
+      "measured_degrees": 75.1003506729806,
+      "inlier_matches": 963
+    },
+    {
+      "pair": 3,
+      "expected_degrees": 90,
+      "measured_degrees": 85.10265511996678,
+      "inlier_matches": 297
+    },
+    {
+      "pair": 4,
+      "expected_degrees": 90,
+      "measured_degrees": 105.24579081710566,
+      "inlier_matches": 33
+    }
+  ]
+}

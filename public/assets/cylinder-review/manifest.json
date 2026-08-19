@@ -1,0 +1,1162 @@
+{
+  "version": 1,
+  "status": "review only; no cross-view reconstruction or image-model call",
+  "source_root": "/Users/kyle/Library/CloudStorage/Dropbox-IYOIYO/Kyle McDonald/Amends/photos/raw/refrigerants",
+  "fit_method": "per-frame robust silhouette cylinder fit",
+  "projection": "50 mm calibrated perspective cylinder with embedded PTLens distortion",
+  "camera_focal_length_pixels": 5980.0,
+  "camera_pitch_degrees": 13.1458,
+  "lens_distortion_ptlens": [
+    0.02533463,
+    -0.0587953,
+    0.04566922
+  ],
+  "grid": {
+    "longitude_step_degrees": 15,
+    "latitude_divisions": 10,
+    "visible_longitude_degrees": [
+      -78.0,
+      78.0
+    ]
+  },
+  "total_frames": 33,
+  "groups": [
+    {
+      "slug": "sercon-1",
+      "display_name": "Sercon Refrigerant 12 Black",
+      "frame_count": 6,
+      "body_height_in_radii": 3.52,
+      "frames": [
+        {
+          "index": 0,
+          "filename": "DSC00846.ARW",
+          "source_size": [
+            2848,
+            4256
+          ],
+          "photo_size": [
+            1424,
+            2128
+          ],
+          "flat_size": [
+            1440,
+            1862
+          ],
+          "photo": "/assets/cylinder-review/sercon-1/dsc00846/photo.webp",
+          "grid": "/assets/cylinder-review/sercon-1/dsc00846/grid.png",
+          "flat": "/assets/cylinder-review/sercon-1/dsc00846/flat.webp",
+          "visible_longitude_degrees": [
+            -78.0,
+            78.0
+          ],
+          "fit": {
+            "filename": "DSC00846.ARW",
+            "top": 1163,
+            "bottom": 3518,
+            "center_top": 1470.5,
+            "center_bottom": 1470.5,
+            "radius_top": 654.4200000000001,
+            "radius_bottom": 604.0799999999999,
+            "angle_offset": 0.0
+          }
+        },
+        {
+          "index": 1,
+          "filename": "DSC00847.ARW",
+          "source_size": [
+            2848,
+            4256
+          ],
+          "photo_size": [
+            1424,
+            2128
+          ],
+          "flat_size": [
+            1440,
+            1862
+          ],
+          "photo": "/assets/cylinder-review/sercon-1/dsc00847/photo.webp",
+          "grid": "/assets/cylinder-review/sercon-1/dsc00847/grid.png",
+          "flat": "/assets/cylinder-review/sercon-1/dsc00847/flat.webp",
+          "visible_longitude_degrees": [
+            -78.0,
+            78.0
+          ],
+          "fit": {
+            "filename": "DSC00847.ARW",
+            "top": 1299,
+            "bottom": 3699,
+            "center_top": 1428.5,
+            "center_bottom": 1428.5,
+            "radius_top": 666.25,
+            "radius_bottom": 615.0,
+            "angle_offset": 0.0
+          }
+        },
+        {
+          "index": 2,
+          "filename": "DSC00848.ARW",
+          "source_size": [
+            2848,
+            4256
+          ],
+          "photo_size": [
+            1424,
+            2128
+          ],
+          "flat_size": [
+            1440,
+            1862
+          ],
+          "photo": "/assets/cylinder-review/sercon-1/dsc00848/photo.webp",
+          "grid": "/assets/cylinder-review/sercon-1/dsc00848/grid.png",
+          "flat": "/assets/cylinder-review/sercon-1/dsc00848/flat.webp",
+          "visible_longitude_degrees": [
+            -78.0,
+            78.0
+          ],
+          "fit": {
+            "filename": "DSC00848.ARW",
+            "top": 1293,
+            "bottom": 3694,
+            "center_top": 1367.0,
+            "center_bottom": 1367.0,
+            "radius_top": 665.08,
+            "radius_bottom": 613.92,
+            "angle_offset": 0.0
+          }
+        },
+        {
+          "index": 3,
+          "filename": "DSC00849.ARW",
+          "source_size": [
+            2848,
+            4256
+          ],
+          "photo_size": [
+            1424,
+            2128
+          ],
+          "flat_size": [
+            1440,
+            1862
+          ],
+          "photo": "/assets/cylinder-review/sercon-1/dsc00849/photo.webp",
+          "grid": "/assets/cylinder-review/sercon-1/dsc00849/grid.png",
+          "flat": "/assets/cylinder-review/sercon-1/dsc00849/flat.webp",
+          "visible_longitude_degrees": [
+            -78.0,
+            78.0
+          ],
+          "fit": {
+            "filename": "DSC00849.ARW",
+            "top": 1258,
+            "bottom": 3679,
+            "center_top": 1385.0,
+            "center_bottom": 1385.0,
+            "radius_top": 669.76,
+            "radius_bottom": 618.24,
+            "angle_offset": 0.0
+          }
+        },
+        {
+          "index": 4,
+          "filename": "DSC00850.ARW",
+          "source_size": [
+            2848,
+            4256
+          ],
+          "photo_size": [
+            1424,
+            2128
+          ],
+          "flat_size": [
+            1440,
+            1862
+          ],
+          "photo": "/assets/cylinder-review/sercon-1/dsc00850/photo.webp",
+          "grid": "/assets/cylinder-review/sercon-1/dsc00850/grid.png",
+          "flat": "/assets/cylinder-review/sercon-1/dsc00850/flat.webp",
+          "visible_longitude_degrees": [
+            -78.0,
+            78.0
+          ],
+          "fit": {
+            "filename": "DSC00850.ARW",
+            "top": 1257,
+            "bottom": 3686,
+            "center_top": 1445.75,
+            "center_bottom": 1445.75,
+            "radius_top": 676.78,
+            "radius_bottom": 624.72,
+            "angle_offset": 0.0
+          }
+        },
+        {
+          "index": 5,
+          "filename": "DSC00851.ARW",
+          "source_size": [
+            2848,
+            4256
+          ],
+          "photo_size": [
+            1424,
+            2128
+          ],
+          "flat_size": [
+            1440,
+            1862
+          ],
+          "photo": "/assets/cylinder-review/sercon-1/dsc00851/photo.webp",
+          "grid": "/assets/cylinder-review/sercon-1/dsc00851/grid.png",
+          "flat": "/assets/cylinder-review/sercon-1/dsc00851/flat.webp",
+          "visible_longitude_degrees": [
+            -78.0,
+            78.0
+          ],
+          "fit": {
+            "filename": "DSC00851.ARW",
+            "top": 1282,
+            "bottom": 3686,
+            "center_top": 1359.0,
+            "center_bottom": 1359.0,
+            "radius_top": 665.73,
+            "radius_bottom": 614.52,
+            "angle_offset": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "slug": "du-pont-freon",
+      "display_name": "Du Pont Freon 12",
+      "frame_count": 6,
+      "body_height_in_radii": 3.48,
+      "frames": [
+        {
+          "index": 0,
+          "filename": "DSC00852.ARW",
+          "source_size": [
+            2848,
+            4256
+          ],
+          "photo_size": [
+            1424,
+            2128
+          ],
+          "flat_size": [
+            1440,
+            1841
+          ],
+          "photo": "/assets/cylinder-review/du-pont-freon/dsc00852/photo.webp",
+          "grid": "/assets/cylinder-review/du-pont-freon/dsc00852/grid.png",
+          "flat": "/assets/cylinder-review/du-pont-freon/dsc00852/flat.webp",
+          "visible_longitude_degrees": [
+            -78.0,
+            78.0
+          ],
+          "fit": {
+            "filename": "DSC00852.ARW",
+            "top": 1135,
+            "bottom": 3380,
+            "center_top": 1398.5,
+            "center_bottom": 1398.5,
+            "radius_top": 664.0400000000001,
+            "radius_bottom": 612.9599999999999,
+            "angle_offset": 0.0
+          }
+        },
+        {
+          "index": 1,
+          "filename": "DSC00853.ARW",
+          "source_size": [
+            2848,
+            4256
+          ],
+          "photo_size": [
+            1424,
+            2128
+          ],
+          "flat_size": [
+            1440,
+            1841
+          ],
+          "photo": "/assets/cylinder-review/du-pont-freon/dsc00853/photo.webp",
+          "grid": "/assets/cylinder-review/du-pont-freon/dsc00853/grid.png",
+          "flat": "/assets/cylinder-review/du-pont-freon/dsc00853/flat.webp",
+          "visible_longitude_degrees": [
+            -78.0,
+            78.0
+          ],
+          "fit": {
+            "filename": "DSC00853.ARW",
+            "top": 1144,
+            "bottom": 3398,
+            "center_top": 1411.5,
+            "center_bottom": 1411.5,
+            "radius_top": 664.0400000000001,
+            "radius_bottom": 612.9599999999999,
+            "angle_offset": 0.0
+          }
+        },
+        {
+          "index": 2,
+          "filename": "DSC00854.ARW",
+          "source_size": [
+            2848,
+            4256
+          ],
+          "photo_size": [
+            1424,
+            2128
+          ],
+          "flat_size": [
+            1440,
+            1841
+          ],
+          "photo": "/assets/cylinder-review/du-pont-freon/dsc00854/photo.webp",
+          "grid": "/assets/cylinder-review/du-pont-freon/dsc00854/grid.png",
+          "flat": "/assets/cylinder-review/du-pont-freon/dsc00854/flat.webp",
+          "visible_longitude_degrees": [
+            -78.0,
+            78.0
+          ],
+          "fit": {
+            "filename": "DSC00854.ARW",
+            "top": 1116,
+            "bottom": 3345,
+            "center_top": 1434.0,
+            "center_bottom": 1434.0,
+            "radius_top": 649.61,
+            "radius_bottom": 599.64,
+            "angle_offset": 0.0
+          }
+        },
+        {
+          "index": 3,
+          "filename": "DSC00855.ARW",
+          "source_size": [
+            2848,
+            4256
+          ],
+          "photo_size": [
+            1424,
+            2128
+          ],
+          "flat_size": [
+            1440,
+            1841
+          ],
+          "photo": "/assets/cylinder-review/du-pont-freon/dsc00855/photo.webp",
+          "grid": "/assets/cylinder-review/du-pont-freon/dsc00855/grid.png",
+          "flat": "/assets/cylinder-review/du-pont-freon/dsc00855/flat.webp",
+          "visible_longitude_degrees": [
+            -78.0,
+            78.0
+          ],
+          "fit": {
+            "filename": "DSC00855.ARW",
+            "top": 1132,
+            "bottom": 3364,
+            "center_top": 1331.5,
+            "center_bottom": 1331.5,
+            "radius_top": 654.16,
+            "radius_bottom": 603.84,
+            "angle_offset": 0.0
+          }
+        },
+        {
+          "index": 4,
+          "filename": "DSC00856.ARW",
+          "source_size": [
+            2848,
+            4256
+          ],
+          "photo_size": [
+            1424,
+            2128
+          ],
+          "flat_size": [
+            1440,
+            1841
+          ],
+          "photo": "/assets/cylinder-review/du-pont-freon/dsc00856/photo.webp",
+          "grid": "/assets/cylinder-review/du-pont-freon/dsc00856/grid.png",
+          "flat": "/assets/cylinder-review/du-pont-freon/dsc00856/flat.webp",
+          "visible_longitude_degrees": [
+            -78.0,
+            78.0
+          ],
+          "fit": {
+            "filename": "DSC00856.ARW",
+            "top": 1112,
+            "bottom": 3373,
+            "center_top": 1365.75,
+            "center_bottom": 1365.75,
+            "radius_top": 652.47,
+            "radius_bottom": 602.28,
+            "angle_offset": 0.0
+          }
+        },
+        {
+          "index": 5,
+          "filename": "DSC00857.ARW",
+          "source_size": [
+            2848,
+            4256
+          ],
+          "photo_size": [
+            1424,
+            2128
+          ],
+          "flat_size": [
+            1440,
+            1841
+          ],
+          "photo": "/assets/cylinder-review/du-pont-freon/dsc00857/photo.webp",
+          "grid": "/assets/cylinder-review/du-pont-freon/dsc00857/grid.png",
+          "flat": "/assets/cylinder-review/du-pont-freon/dsc00857/flat.webp",
+          "visible_longitude_degrees": [
+            -78.0,
+            78.0
+          ],
+          "fit": {
+            "filename": "DSC00857.ARW",
+            "top": 1140,
+            "bottom": 3343,
+            "center_top": 1394.25,
+            "center_bottom": 1394.25,
+            "radius_top": 646.75,
+            "radius_bottom": 597.0,
+            "angle_offset": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "slug": "interdynamics",
+      "display_name": "Interdynamics Refrigerant 12",
+      "frame_count": 5,
+      "body_height_in_radii": 3.45,
+      "frames": [
+        {
+          "index": 0,
+          "filename": "DSC00858.ARW",
+          "source_size": [
+            2848,
+            4256
+          ],
+          "photo_size": [
+            1424,
+            2128
+          ],
+          "flat_size": [
+            1440,
+            1825
+          ],
+          "photo": "/assets/cylinder-review/interdynamics/dsc00858/photo.webp",
+          "grid": "/assets/cylinder-review/interdynamics/dsc00858/grid.png",
+          "flat": "/assets/cylinder-review/interdynamics/dsc00858/flat.webp",
+          "visible_longitude_degrees": [
+            -78.0,
+            78.0
+          ],
+          "fit": {
+            "filename": "DSC00858.ARW",
+            "top": 1140,
+            "bottom": 3327,
+            "center_top": 1430.75,
+            "center_bottom": 1430.75,
+            "radius_top": 664.5600000000001,
+            "radius_bottom": 613.4399999999999,
+            "angle_offset": 0.0
+          }
+        },
+        {
+          "index": 1,
+          "filename": "DSC00859.ARW",
+          "source_size": [
+            2848,
+            4256
+          ],
+          "photo_size": [
+            1424,
+            2128
+          ],
+          "flat_size": [
+            1440,
+            1825
+          ],
+          "photo": "/assets/cylinder-review/interdynamics/dsc00859/photo.webp",
+          "grid": "/assets/cylinder-review/interdynamics/dsc00859/grid.png",
+          "flat": "/assets/cylinder-review/interdynamics/dsc00859/flat.webp",
+          "visible_longitude_degrees": [
+            -78.0,
+            78.0
+          ],
+          "fit": {
+            "filename": "DSC00859.ARW",
+            "top": 1126,
+            "bottom": 3325,
+            "center_top": 1370.0,
+            "center_bottom": 1370.0,
+            "radius_top": 660.9200000000001,
+            "radius_bottom": 610.0799999999999,
+            "angle_offset": 0.0
+          }
+        },
+        {
+          "index": 2,
+          "filename": "DSC00860.ARW",
+          "source_size": [
+            2848,
+            4256
+          ],
+          "photo_size": [
+            1424,
+            2128
+          ],
+          "flat_size": [
+            1440,
+            1825
+          ],
+          "photo": "/assets/cylinder-review/interdynamics/dsc00860/photo.webp",
+          "grid": "/assets/cylinder-review/interdynamics/dsc00860/grid.png",
+          "flat": "/assets/cylinder-review/interdynamics/dsc00860/flat.webp",
+          "visible_longitude_degrees": [
+            -78.0,
+            78.0
+          ],
+          "fit": {
+            "filename": "DSC00860.ARW",
+            "top": 1150,
+            "bottom": 3306,
+            "center_top": 1383.0,
+            "center_bottom": 1383.0,
+            "radius_top": 653.9,
+            "radius_bottom": 603.6,
+            "angle_offset": 0.0
+          }
+        },
+        {
+          "index": 3,
+          "filename": "DSC00861.ARW",
+          "source_size": [
+            2848,
+            4256
+          ],
+          "photo_size": [
+            1424,
+            2128
+          ],
+          "flat_size": [
+            1440,
+            1825
+          ],
+          "photo": "/assets/cylinder-review/interdynamics/dsc00861/photo.webp",
+          "grid": "/assets/cylinder-review/interdynamics/dsc00861/grid.png",
+          "flat": "/assets/cylinder-review/interdynamics/dsc00861/flat.webp",
+          "visible_longitude_degrees": [
+            -78.0,
+            78.0
+          ],
+          "fit": {
+            "filename": "DSC00861.ARW",
+            "top": 1145,
+            "bottom": 3349,
+            "center_top": 1346.0,
+            "center_bottom": 1346.0,
+            "radius_top": 660.9200000000001,
+            "radius_bottom": 610.0799999999999,
+            "angle_offset": 0.0
+          }
+        },
+        {
+          "index": 4,
+          "filename": "DSC00862.ARW",
+          "source_size": [
+            2848,
+            4256
+          ],
+          "photo_size": [
+            1424,
+            2128
+          ],
+          "flat_size": [
+            1440,
+            1825
+          ],
+          "photo": "/assets/cylinder-review/interdynamics/dsc00862/photo.webp",
+          "grid": "/assets/cylinder-review/interdynamics/dsc00862/grid.png",
+          "flat": "/assets/cylinder-review/interdynamics/dsc00862/flat.webp",
+          "visible_longitude_degrees": [
+            -78.0,
+            78.0
+          ],
+          "fit": {
+            "filename": "DSC00862.ARW",
+            "top": 1135,
+            "bottom": 3314,
+            "center_top": 1330.75,
+            "center_bottom": 1330.75,
+            "radius_top": 658.58,
+            "radius_bottom": 607.92,
+            "angle_offset": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "slug": "cold-shot",
+      "display_name": "Cold Shot R-12",
+      "frame_count": 5,
+      "body_height_in_radii": 3.48,
+      "frames": [
+        {
+          "index": 0,
+          "filename": "DSC00863.ARW",
+          "source_size": [
+            2848,
+            4256
+          ],
+          "photo_size": [
+            1424,
+            2128
+          ],
+          "flat_size": [
+            1440,
+            1841
+          ],
+          "photo": "/assets/cylinder-review/cold-shot/dsc00863/photo.webp",
+          "grid": "/assets/cylinder-review/cold-shot/dsc00863/grid.png",
+          "flat": "/assets/cylinder-review/cold-shot/dsc00863/flat.webp",
+          "visible_longitude_degrees": [
+            -78.0,
+            78.0
+          ],
+          "fit": {
+            "filename": "DSC00863.ARW",
+            "top": 1150,
+            "bottom": 3477,
+            "center_top": 1436.0,
+            "center_bottom": 1436.0,
+            "radius_top": 653.12,
+            "radius_bottom": 602.88,
+            "angle_offset": 0.0
+          }
+        },
+        {
+          "index": 1,
+          "filename": "DSC00864.ARW",
+          "source_size": [
+            2848,
+            4256
+          ],
+          "photo_size": [
+            1424,
+            2128
+          ],
+          "flat_size": [
+            1440,
+            1841
+          ],
+          "photo": "/assets/cylinder-review/cold-shot/dsc00864/photo.webp",
+          "grid": "/assets/cylinder-review/cold-shot/dsc00864/grid.png",
+          "flat": "/assets/cylinder-review/cold-shot/dsc00864/flat.webp",
+          "visible_longitude_degrees": [
+            -78.0,
+            78.0
+          ],
+          "fit": {
+            "filename": "DSC00864.ARW",
+            "top": 1140,
+            "bottom": 3403,
+            "center_top": 1410.0,
+            "center_bottom": 1410.0,
+            "radius_top": 640.38,
+            "radius_bottom": 591.12,
+            "angle_offset": 0.0
+          }
+        },
+        {
+          "index": 2,
+          "filename": "DSC00865.ARW",
+          "source_size": [
+            2848,
+            4256
+          ],
+          "photo_size": [
+            1424,
+            2128
+          ],
+          "flat_size": [
+            1440,
+            1841
+          ],
+          "photo": "/assets/cylinder-review/cold-shot/dsc00865/photo.webp",
+          "grid": "/assets/cylinder-review/cold-shot/dsc00865/grid.png",
+          "flat": "/assets/cylinder-review/cold-shot/dsc00865/flat.webp",
+          "visible_longitude_degrees": [
+            -78.0,
+            78.0
+          ],
+          "fit": {
+            "filename": "DSC00865.ARW",
+            "top": 1135,
+            "bottom": 3379,
+            "center_top": 1351.5,
+            "center_bottom": 1351.5,
+            "radius_top": 631.02,
+            "radius_bottom": 582.48,
+            "angle_offset": 0.0
+          }
+        },
+        {
+          "index": 3,
+          "filename": "DSC00866.ARW",
+          "source_size": [
+            2848,
+            4256
+          ],
+          "photo_size": [
+            1424,
+            2128
+          ],
+          "flat_size": [
+            1440,
+            1841
+          ],
+          "photo": "/assets/cylinder-review/cold-shot/dsc00866/photo.webp",
+          "grid": "/assets/cylinder-review/cold-shot/dsc00866/grid.png",
+          "flat": "/assets/cylinder-review/cold-shot/dsc00866/flat.webp",
+          "visible_longitude_degrees": [
+            -78.0,
+            78.0
+          ],
+          "fit": {
+            "filename": "DSC00866.ARW",
+            "top": 1132,
+            "bottom": 3358,
+            "center_top": 1424.25,
+            "center_bottom": 1424.25,
+            "radius_top": 624.0,
+            "radius_bottom": 576.0,
+            "angle_offset": 0.0
+          }
+        },
+        {
+          "index": 4,
+          "filename": "DSC00867.ARW",
+          "source_size": [
+            2848,
+            4256
+          ],
+          "photo_size": [
+            1424,
+            2128
+          ],
+          "flat_size": [
+            1440,
+            1841
+          ],
+          "photo": "/assets/cylinder-review/cold-shot/dsc00867/photo.webp",
+          "grid": "/assets/cylinder-review/cold-shot/dsc00867/grid.png",
+          "flat": "/assets/cylinder-review/cold-shot/dsc00867/flat.webp",
+          "visible_longitude_degrees": [
+            -78.0,
+            78.0
+          ],
+          "fit": {
+            "filename": "DSC00867.ARW",
+            "top": 1150,
+            "bottom": 3470,
+            "center_top": 1430.0,
+            "center_bottom": 1430.0,
+            "radius_top": 629.98,
+            "radius_bottom": 581.52,
+            "angle_offset": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "slug": "chargette",
+      "display_name": "Chargette Refrigerant 12",
+      "frame_count": 5,
+      "body_height_in_radii": 3.66,
+      "frames": [
+        {
+          "index": 0,
+          "filename": "DSC00868.ARW",
+          "source_size": [
+            2848,
+            4256
+          ],
+          "photo_size": [
+            1424,
+            2128
+          ],
+          "flat_size": [
+            1440,
+            1936
+          ],
+          "photo": "/assets/cylinder-review/chargette/dsc00868/photo.webp",
+          "grid": "/assets/cylinder-review/chargette/dsc00868/grid.png",
+          "flat": "/assets/cylinder-review/chargette/dsc00868/flat.webp",
+          "visible_longitude_degrees": [
+            -78.0,
+            78.0
+          ],
+          "fit": {
+            "filename": "DSC00868.ARW",
+            "top": 1178,
+            "bottom": 3551,
+            "center_top": 1414.5,
+            "center_bottom": 1414.5,
+            "radius_top": 665.08,
+            "radius_bottom": 613.92,
+            "angle_offset": 0.0
+          }
+        },
+        {
+          "index": 1,
+          "filename": "DSC00869.ARW",
+          "source_size": [
+            2848,
+            4256
+          ],
+          "photo_size": [
+            1424,
+            2128
+          ],
+          "flat_size": [
+            1440,
+            1936
+          ],
+          "photo": "/assets/cylinder-review/chargette/dsc00869/photo.webp",
+          "grid": "/assets/cylinder-review/chargette/dsc00869/grid.png",
+          "flat": "/assets/cylinder-review/chargette/dsc00869/flat.webp",
+          "visible_longitude_degrees": [
+            -78.0,
+            78.0
+          ],
+          "fit": {
+            "filename": "DSC00869.ARW",
+            "top": 1169,
+            "bottom": 3527,
+            "center_top": 1365.75,
+            "center_bottom": 1365.75,
+            "radius_top": 657.8000000000001,
+            "radius_bottom": 607.1999999999999,
+            "angle_offset": 0.0
+          }
+        },
+        {
+          "index": 2,
+          "filename": "DSC00870.ARW",
+          "source_size": [
+            2848,
+            4256
+          ],
+          "photo_size": [
+            1424,
+            2128
+          ],
+          "flat_size": [
+            1440,
+            1936
+          ],
+          "photo": "/assets/cylinder-review/chargette/dsc00870/photo.webp",
+          "grid": "/assets/cylinder-review/chargette/dsc00870/grid.png",
+          "flat": "/assets/cylinder-review/chargette/dsc00870/flat.webp",
+          "visible_longitude_degrees": [
+            -78.0,
+            78.0
+          ],
+          "fit": {
+            "filename": "DSC00870.ARW",
+            "top": 1166,
+            "bottom": 3499,
+            "center_top": 1413.25,
+            "center_bottom": 1413.25,
+            "radius_top": 647.01,
+            "radius_bottom": 597.24,
+            "angle_offset": 0.0
+          }
+        },
+        {
+          "index": 3,
+          "filename": "DSC00871.ARW",
+          "source_size": [
+            2848,
+            4256
+          ],
+          "photo_size": [
+            1424,
+            2128
+          ],
+          "flat_size": [
+            1440,
+            1936
+          ],
+          "photo": "/assets/cylinder-review/chargette/dsc00871/photo.webp",
+          "grid": "/assets/cylinder-review/chargette/dsc00871/grid.png",
+          "flat": "/assets/cylinder-review/chargette/dsc00871/flat.webp",
+          "visible_longitude_degrees": [
+            -78.0,
+            78.0
+          ],
+          "fit": {
+            "filename": "DSC00871.ARW",
+            "top": 1140,
+            "bottom": 3452,
+            "center_top": 1491.5,
+            "center_bottom": 1491.5,
+            "radius_top": 642.85,
+            "radius_bottom": 593.4,
+            "angle_offset": 0.0
+          }
+        },
+        {
+          "index": 4,
+          "filename": "DSC00872.ARW",
+          "source_size": [
+            2848,
+            4256
+          ],
+          "photo_size": [
+            1424,
+            2128
+          ],
+          "flat_size": [
+            1440,
+            1936
+          ],
+          "photo": "/assets/cylinder-review/chargette/dsc00872/photo.webp",
+          "grid": "/assets/cylinder-review/chargette/dsc00872/grid.png",
+          "flat": "/assets/cylinder-review/chargette/dsc00872/flat.webp",
+          "visible_longitude_degrees": [
+            -78.0,
+            78.0
+          ],
+          "fit": {
+            "filename": "DSC00872.ARW",
+            "top": 1151,
+            "bottom": 3403,
+            "center_top": 1354.0,
+            "center_bottom": 1354.0,
+            "radius_top": 630.24,
+            "radius_bottom": 581.76,
+            "angle_offset": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "slug": "sercon-2",
+      "display_name": "Sercon Refrigerant 12 White",
+      "frame_count": 6,
+      "body_height_in_radii": 3.66,
+      "frames": [
+        {
+          "index": 0,
+          "filename": "DSC00873.ARW",
+          "source_size": [
+            2848,
+            4256
+          ],
+          "photo_size": [
+            1424,
+            2128
+          ],
+          "flat_size": [
+            1440,
+            1936
+          ],
+          "photo": "/assets/cylinder-review/sercon-2/dsc00873/photo.webp",
+          "grid": "/assets/cylinder-review/sercon-2/dsc00873/grid.png",
+          "flat": "/assets/cylinder-review/sercon-2/dsc00873/flat.webp",
+          "visible_longitude_degrees": [
+            -78.0,
+            78.0
+          ],
+          "fit": {
+            "filename": "DSC00873.ARW",
+            "top": 1117,
+            "bottom": 3494,
+            "center_top": 1435.0,
+            "center_bottom": 1435.0,
+            "radius_top": 655.72,
+            "radius_bottom": 605.28,
+            "angle_offset": 0.0
+          }
+        },
+        {
+          "index": 1,
+          "filename": "DSC00874.ARW",
+          "source_size": [
+            2848,
+            4256
+          ],
+          "photo_size": [
+            1424,
+            2128
+          ],
+          "flat_size": [
+            1440,
+            1936
+          ],
+          "photo": "/assets/cylinder-review/sercon-2/dsc00874/photo.webp",
+          "grid": "/assets/cylinder-review/sercon-2/dsc00874/grid.png",
+          "flat": "/assets/cylinder-review/sercon-2/dsc00874/flat.webp",
+          "visible_longitude_degrees": [
+            -78.0,
+            78.0
+          ],
+          "fit": {
+            "filename": "DSC00874.ARW",
+            "top": 1122,
+            "bottom": 3471,
+            "center_top": 1337.0,
+            "center_bottom": 1337.0,
+            "radius_top": 647.9200000000001,
+            "radius_bottom": 598.0799999999999,
+            "angle_offset": 0.0
+          }
+        },
+        {
+          "index": 2,
+          "filename": "DSC00875.ARW",
+          "source_size": [
+            2848,
+            4256
+          ],
+          "photo_size": [
+            1424,
+            2128
+          ],
+          "flat_size": [
+            1440,
+            1936
+          ],
+          "photo": "/assets/cylinder-review/sercon-2/dsc00875/photo.webp",
+          "grid": "/assets/cylinder-review/sercon-2/dsc00875/grid.png",
+          "flat": "/assets/cylinder-review/sercon-2/dsc00875/flat.webp",
+          "visible_longitude_degrees": [
+            -78.0,
+            78.0
+          ],
+          "fit": {
+            "filename": "DSC00875.ARW",
+            "top": 1124,
+            "bottom": 3470,
+            "center_top": 1341.0,
+            "center_bottom": 1341.0,
+            "radius_top": 651.3000000000001,
+            "radius_bottom": 601.1999999999999,
+            "angle_offset": 0.0
+          }
+        },
+        {
+          "index": 3,
+          "filename": "DSC00876.ARW",
+          "source_size": [
+            2848,
+            4256
+          ],
+          "photo_size": [
+            1424,
+            2128
+          ],
+          "flat_size": [
+            1440,
+            1936
+          ],
+          "photo": "/assets/cylinder-review/sercon-2/dsc00876/photo.webp",
+          "grid": "/assets/cylinder-review/sercon-2/dsc00876/grid.png",
+          "flat": "/assets/cylinder-review/sercon-2/dsc00876/flat.webp",
+          "visible_longitude_degrees": [
+            -78.0,
+            78.0
+          ],
+          "fit": {
+            "filename": "DSC00876.ARW",
+            "top": 1142,
+            "bottom": 3510,
+            "center_top": 1279.5,
+            "center_bottom": 1279.5,
+            "radius_top": 652.08,
+            "radius_bottom": 601.92,
+            "angle_offset": 0.0
+          }
+        },
+        {
+          "index": 4,
+          "filename": "DSC00877.ARW",
+          "source_size": [
+            2848,
+            4256
+          ],
+          "photo_size": [
+            1424,
+            2128
+          ],
+          "flat_size": [
+            1440,
+            1936
+          ],
+          "photo": "/assets/cylinder-review/sercon-2/dsc00877/photo.webp",
+          "grid": "/assets/cylinder-review/sercon-2/dsc00877/grid.png",
+          "flat": "/assets/cylinder-review/sercon-2/dsc00877/flat.webp",
+          "visible_longitude_degrees": [
+            -78.0,
+            78.0
+          ],
+          "fit": {
+            "filename": "DSC00877.ARW",
+            "top": 1137,
+            "bottom": 3511,
+            "center_top": 1399.0,
+            "center_bottom": 1399.0,
+            "radius_top": 654.03,
+            "radius_bottom": 603.72,
+            "angle_offset": 0.0
+          }
+        },
+        {
+          "index": 5,
+          "filename": "DSC00878.ARW",
+          "source_size": [
+            2848,
+            4256
+          ],
+          "photo_size": [
+            1424,
+            2128
+          ],
+          "flat_size": [
+            1440,
+            1936
+          ],
+          "photo": "/assets/cylinder-review/sercon-2/dsc00878/photo.webp",
+          "grid": "/assets/cylinder-review/sercon-2/dsc00878/grid.png",
+          "flat": "/assets/cylinder-review/sercon-2/dsc00878/flat.webp",
+          "visible_longitude_degrees": [
+            -78.0,
+            78.0
+          ],
+          "fit": {
+            "filename": "DSC00878.ARW",
+            "top": 1137,
+            "bottom": 3488,
+            "center_top": 1469.0,
+            "center_bottom": 1469.0,
+            "radius_top": 652.6,
+            "radius_bottom": 602.4,
+            "angle_offset": 0.0
+          }
+        }
+      ]
+    }
+  ]
+}

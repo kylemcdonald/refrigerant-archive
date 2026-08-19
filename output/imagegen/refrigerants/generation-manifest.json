@@ -1,0 +1,37 @@
+{
+  "model": "gpt-image-2",
+  "quality": "high",
+  "prompt": "generate the original albedo image for this unwrapped label from a glossy can",
+  "outputs": [
+    {
+      "can": "chargette",
+      "source": "public/assets/chargette/label-source.webp",
+      "generated": "output/imagegen/refrigerants/chargette-label-restored-v3.png",
+      "viewer_asset": "public/assets/chargette/label-restored.webp"
+    },
+    {
+      "can": "du-pont-freon",
+      "source": "public/assets/du-pont-freon/label-source.webp",
+      "generated": "output/imagegen/refrigerants/du-pont-freon-label-restored.png",
+      "viewer_asset": "public/assets/du-pont-freon/label-restored.webp"
+    },
+    {
+      "can": "interdynamics",
+      "source": "public/assets/interdynamics/label-source.webp",
+      "generated": "output/imagegen/refrigerants/interdynamics-label-restored.png",
+      "viewer_asset": "public/assets/interdynamics/label-restored.webp"
+    },
+    {
+      "can": "sercon-1",
+      "source": "public/assets/sercon-1/label-source.webp",
+      "generated": "output/imagegen/refrigerants/sercon-1-label-restored.png",
+      "viewer_asset": "public/assets/sercon-1/label-restored.webp"
+    },
+    {
+      "can": "sercon-2",
+      "source": "public/assets/sercon-2/label-source.webp",
+      "generated": "output/imagegen/refrigerants/sercon-2-label-restored.png",
+      "viewer_asset": "public/assets/sercon-2/label-restored.webp"
+    }
+  ]
+}
